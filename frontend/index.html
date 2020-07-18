@@ -469,7 +469,7 @@
        // Our-plan section 
        //////////////////////////////////////////////////////////-->
 
-  <div class="our-plan-parlex">
+  <div class="our-plan-parlex" style="display: none;">
     <div class="parlex4-back">
       <div class="w-container">
         <div class="wrap">
@@ -580,8 +580,8 @@
               <br>We take pride in our work and everything we create is executed with precision and love.</p>
           </div>
           <div class="w-row team-member">
-            <div class="w-col w-col-4">
-              <div class="team-section">
+            <div class="w-col w-col-3">
+              <div class="team-section" style="display: none;">
                 <div class="team-image">
                   <img class="team-img" src="images/team/image1.png" alt="52dd1e57e64ce6cb200004f3_image1.png">
                 </div>
@@ -600,14 +600,14 @@
                 </div>
               </div>
             </div>
-            <div class="w-col w-col-4">
+            <div class="w-col w-col-6">
               <div class="team-section">
                 <div class="team-image">
-                  <img class="team-img" src="images/team/image2.png" alt="52dd1edfe64ce6cb200004fb_image2.png">
+                  <img class="team-img" src="images/team/Andre_Moura.jpg" alt="52dd1edfe64ce6cb200004fb_image2.png">
                 </div>
                 <div class="team-des">
-                  <h4 class="team-name">JOHN DOE</h4>
-                  <div class="team-name-des">Lead Developer</div>
+                  <h4 class="team-name">ANDRÉ MOURA</h4>
+                  <div class="team-name-des">Desenvolvedor Web</div>
                 </div>
                 <div class="team-social">
                   <div class="w-clearfix social-section">
@@ -620,8 +620,8 @@
                 </div>
               </div>
             </div>
-            <div class="w-col w-col-4">
-              <div class="team-section">
+            <div class="w-col w-col-3">
+              <div class="team-section" style="display: none;">
                 <div class="team-image">
                   <img class="team-img" src="images/team/image3.png" alt="52dd1efcad165eca20000539_image3.png">
                 </div>
@@ -654,7 +654,7 @@
        // Clients section 
        //////////////////////////////////////////////////////////-->
 
-  <div class="clients-parlex">
+  <div class="clients-parlex" style="display: none;">
     <div class="parlex6-back">
       <div class="w-container">
         <div class="wrap-client">
@@ -698,11 +698,11 @@
           <div class="w-form">
             <form action="contact.php" method="post">
               <label for="name">Nome:</label>
-              <input class="w-input" type="text" placeholder="Digite seu nome" name="cf_name">
+              <input class="w-input" type="text" placeholder="Digite seu nome" name="cf_name" required>
               <label for="email">Endereco de E-mail:</label>
               <input class="w-input" placeholder="Digite seu endereco de e-mail" type="text" name="cf_email"  required>
               <label for="email">Sua Mensagem:</label>
-              <textarea class="w-input message" placeholder="Digite sua Mensagem Aqui" name="cf_message"></textarea><br>
+              <textarea class="w-input message" placeholder="Digite sua Mensagem Aqui" name="cf_message" required></textarea><br>
               <button class="w-button" type="submit">ENVIAR</button>
             </form>
             <div class="w-form-done">
@@ -714,7 +714,10 @@
           </div>
         </div>
       </div>
-      <div class="w-widget w-widget-map contac-map" data-widget-latlng="-22.7922256,-45.2736927" data-widget-style="roadmap" data-widget-zoom="10" data-widget-tooltip="Guaratinguetá"></div>
+      <!--<div class="w-widget w-widget-map contac-map" data-widget-latlng="-22.799454,-45.226788" data-widget-style="roadmap" data-widget-zoom="10" data-widget-tooltip="Guaratinguetá"></div>-->
+      <div class="w-widget contac-map" data-widget-style="roadmap" data-widget-zoom="10" data-widget-tooltip="Guaratinguetá">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6185.8893950584525!2d-45.229892470041634!3d-22.796836920442335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc43d2f182b09%3A0x4ff95ebd5d4a29a7!2sGuaratinguet%C3%A1%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1595034539856!5m2!1spt-BR!2sbr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
       
       <div class="w-container">
         <div class="w-row contact-col">
@@ -726,8 +729,8 @@
               <h4 class="contact-col-head">Visit Us</h4>
             </div>
             <div>
-              <div class="contact-col-text">795 Folsom St., Suite 600
-                <br>San Francisco, CA 94107</div>
+              <div class="contact-col-text">Rua 7 n° 104, Residencial Espanha
+                <br>Guaratinguetá, SP 12564-560</div>
             </div>
           </div>
           <div class="w-col w-col-4 contact-col2">
@@ -738,7 +741,7 @@
               <h4 class="contact-col-head">Mail us</h4>
             </div>
             <div>
-              <div class="contact-col-text">general: office@elegance.com
+              <div class="contact-col-text">general: andre.benedicto@etec.sp.gov.br
                 <br>support: support@elegance.com</div>
             </div>
           </div>
@@ -750,8 +753,8 @@
               <h4 class="contact-col-head">Call Us</h4>
             </div>
             <div>
-              <div class="contact-col-text-bar-last">P: (452) 123-8970
-                <br>F: (452) 123-8971</div>
+              <div class="contact-col-text-bar-last">(12) 988563036
+                <br>Whatsapp</div>
             </div>
           </div>
         </div>
