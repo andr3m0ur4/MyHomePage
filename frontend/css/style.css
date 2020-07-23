@@ -739,7 +739,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 
 .grid figcaption span:before {
-  content: 'by ';
+  content: 'por ';
 }
 
 .portfolio-images {
